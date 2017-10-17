@@ -1,0 +1,46 @@
+<!-- ディスプレイの出力モードに関する設定 -->
+<display>
+    
+    <!-- フレームレート：整数 -->
+    <framerate>60</framerate>
+    
+    <!-- 垂直同期信号に同期して描画するかどうか：はい =1　いいえ =0 -->
+    <vsync>1</vsync>
+</display>
+
+<!-- 再生に関する設定 -->
+<config>
+    
+    <!-- プレビュー画面を利用するかどうか：はい =1　いいえ =0 -->
+    <preview>1</preview>
+    
+    <!-- 起動時に自動再生するかどうか：はい =1　いいえ =0 -->
+    <autorun>0</autorun>
+    
+    <!-- ループ再生するかどうか：はい =1　いいえ =0 -->
+    <loop>1</loop>
+</config>
+
+<!-- 動画ファイルに関する設定 -->
+<resource>
+    
+    <!-- 動画ファイルの数に応じて <video>~</video> を複数記述可能 -->
+    <video>
+        
+        <!-- 動画ファイルの名前：文字列 -->
+        <file>howto.mov</file>
+        
+        <!-- 動画再生時の音量：小数 0.0~1.0 -->
+        <volume>1.0</volume>
+    </video>
+    
+    <!--
+    <video>
+        <file>example.mov</file>
+        <volume>0.75</volume>
+    </video>
+     -->
+</resource>
+
+<!-- デバッグ情報を表示するかどうか：はい =1　いいえ =0 -->
+<debug>1</debug>
